@@ -75,7 +75,7 @@ const ShoppingCart = (props) => {
                         </svg>
 
                         <img
-                            src={`http://localhost:3500/ItemImage/${productsData.fPicName}`}
+                            src={`https://megenagna-api.onrender.com/ItemImage/${productsData.fPicName}`}
                             alt='grid_image'
                             className=' size-8 rounded-md object-cover'
                         />
