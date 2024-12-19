@@ -25,7 +25,7 @@ const ShoppingCard = (props) => {
                 <p className="text-gray-700 font-semibold">
                     {/* <img
                         className="object-cover object-center"
-                        src={`http://localhost:3500/ItemImage/${fPicName}`}
+                        src={`https://megenagna-api.onrender.com/ItemImage/${fPicName}`}
                         alt={fPicName}
                     /> */}
 
@@ -54,7 +54,7 @@ const ShoppingCard = (props) => {
 
                         <img
                             className="object-cover object-center"
-                            src={`http://localhost:3500/ItemImage/${fPicName}`}
+                            src={`https://megenagna-api.onrender.com/ItemImage/${fPicName}`}
                             alt="Woman workcationing on the beach"
                         />
 
@@ -87,7 +87,7 @@ const ShoppingCard = (props) => {
                     </div>
                     <div className="prod-img w-25 h-25">
                         {fPicName !== '' ?
-                            <img src={`http://localhost:3500/ItemImage/${fPicName}`}
+                            <img src={`https://megenagna-api.onrender.com/ItemImage/${fPicName}`}
                                 className="w-full object-cover object-center"
                             />
                             :
