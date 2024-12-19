@@ -149,7 +149,7 @@ const ShoppingCard = (props) => {
             <div className='aspect-w-3 aspect-h-3 sm:aspect-w-1 sm:aspect-h-1 lg:aspect-w-3 lg:aspect-h-4'>
                 <img
                     className='object-cover shadow-lg rounded-lg'
-                    src={`http://localhost:3500/ItemImage/${fPicName}`}
+                    src={`https://megenagna-api.onrender.com/ItemImage/${fPicName}`}
                     alt=''
                 />
                 {/* <div className=''>
@@ -178,7 +178,7 @@ const ShoppingCard = (props) => {
                 </svg> */}
                 <img
                     className='object-cover shadow-xs rounded-lg w-full h-[100px] cursor-pointer'
-                    src={`http://localhost:3500/ItemImage/${fPicName}`}
+                    src={`https://megenagna-api.onrender.com/ItemImage/${fPicName}`}
                     alt=''
                 />
 
@@ -208,7 +208,7 @@ const ShoppingCard = (props) => {
 
     //             <img
     //                 className='object-cover shadow-xs rounded-lg w-full h-[100px] cursor-pointer'
-    //                 src={`http://localhost:3500/ItemImage/${fPicName}`}
+    //                 src={`https://megenagna-api.onrender.com/ItemImage/${fPicName}`}
     //                 alt=''
     //             />
     //         </div>
@@ -250,7 +250,7 @@ export const content_mod_final = ({ children, imgSrc, ...props }) => (
         className='relative max-w-xs overflow-hidden rounded-2xl shadow-lg group'
     >  <img
             className=" transition-transform group-hover:scale-110 duration-200"
-            src={`http://localhost:3500/ItemImage/${imgSrc}`}
+            src={`https://megenagna-api.onrender.com/ItemImage/${imgSrc}`}
             alt="not visible"
         />
         <div className=' absolute inset-0 flex items-end bg-gradient-to-t from-black/60 to-transparent'>
