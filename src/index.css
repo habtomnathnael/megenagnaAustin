@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* @import url('./fonts/avenir/Avenir-Regular.ttf?family=Avenir-Regular'); */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "Avenir";
+    src: local("Avenir-Regular"),
+    url('./fonts/avenir/Avenir-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Lulo";
+    src: local("FontsFree-Net-Lulo-Clean-W01-One-Bold"),
+    url('./fonts/lulo/FontsFree-Net-Lulo-Clean-W01-One-Bold.ttf') format("truetype");
+}
