@@ -17,7 +17,7 @@ const ShoppingCard = (props) => {
                 {/* <span class="block bg-blue-400 rounded-b absolute sm:h-4 top-0 sm:-top-0.5">{title}</span> */}
                 {/* <svg class="w-10 h-10 text-gray-600 mt-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg> */}
 
-                <div className={`bg-[url("http://localhost:3500/ItemImage/${fPicName}")] w-full h-full`}>
+                <div className={`bg-[url("https://megenagna-api.onrender.com/ItemImage/${fPicName}")] w-full h-full`}>
                     this is trial version
                 </div>
 
