@@ -175,7 +175,7 @@ const ShoppingCart = (props) => {
                         <div class="justify-between gap-2 mb-2 rounded-lg bg-white py-1 shadow-xs sm:flex sm:justify-start">
                             <div >
                                 <img
-                                    src={`http://localhost:3500/ItemImage/${productsData.fPicName}`}
+                                    src={`https://megenagna-api.onrender.com/ItemImage/${productsData.fPicName}`}
                                     alt="product-image" className="size-20 rounded-md object-cover" />
                             </div>
                             <div class="sm:ml-0 sm:flex sm:w-full sm:justify-between">
